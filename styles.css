@@ -1,0 +1,62 @@
+.title{
+    display:block;
+    text-align:center;
+    margin-top:250px;
+}
+.buttonsz{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.buttonsz2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.start{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.imagez{
+    display:flex;
+    flex-direction:row;
+   justify-content:space-around;
+}
+body{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf2836cb-5893-4a6c-b156-5a89d94fc721/dce61tw-3cfde162-fb53-4b5a-96cd-ae1df756df65.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmMjgzNmNiLTU4OTMtNGE2Yy1iMTU2LTVhODlkOTRmYzcyMVwvZGNlNjF0dy0zY2ZkZTE2Mi1mYjUzLTRiNWEtOTZjZC1hZTFkZjc1NmRmNjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vEwtplf1FBeP01zGIPa3zIMEz7mUudddreie2iCbe9Q");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+h1{
+  font-size:70px;  
+  font-family: 'lobster', cursive;
+  color:#4d0099;
+}
+p{
+   color:white;
+   font-family: 'Baloo Bhai', cursive;
+   
+}
+button{
+    width:70px;
+    border:solid blue .5px;
+    background-color:#4d0099;
+    color:white;
+    margin:10px;
+}
+input{
+    border:solid blue .5px;
+    background-color:#4d0099;
+    color:white;
+    width:170px;
+    padding:10px;
+  text-align:center;  
+}
+img{
+    width:300px;
+    height:300px;
+}
+::placeholder{
+    color:white;
+}
